@@ -6,8 +6,6 @@ import pandas as pd
 import json
 import boto3
 
-TOKEN = ''
-
 def fetch_web_api(endpoint, method, body=None):
     url = f'https://api.spotify.com/{endpoint}'
     headers = {
